@@ -75,7 +75,7 @@
     }
 
     .style1 a {
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .style2 {
@@ -98,3 +98,1421 @@
         height: 10rem;
     }
 }
+
+@media (width < 1330px) {
+    .style1 {
+        width: 18rem;
+    }
+
+    .img-size {
+        width: 7.5rem !important;
+    }
+
+    .style2 {
+        width: 18rem;
+    }
+
+    .style2 img {
+        width: 15.7rem;
+    }
+
+    .style3 {
+        width: 18rem;
+    }
+
+    .style3-img1-size {
+        width: 15.5rem;
+    }
+}
+
+@media (width < 1230px) {
+    .box-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .style3 {
+        margin: 0;
+    }
+
+    .style1 {
+        width: 21rem;
+    }
+
+    .images img {
+        width: 10.5rem;
+    }
+
+    .img-size {
+        width: 9rem !important;
+    }
+
+    .padding div {
+        padding-left: .5rem;
+    }
+
+    .style2 {
+        width: 21rem;
+    }
+
+    .style2 img {
+        width: 18.5rem;
+    }
+
+    .img-size2 {
+        height: 18rem !important;
+    }
+
+    .style3 {
+        width: 21rem;
+    }
+
+    .style3-img1-size {
+        width: 19rem;
+    }
+}
+
+@media (width < 1187px) {
+    .products2 img {
+        max-width: 10rem;
+        max-height: 8rem;
+    }
+}
+
+@media (width < 1070px) {
+    .style1 {
+        width: 19.5rem;
+    }
+
+    .images img {
+        width: 9.5rem;
+    }
+
+    .img-size {
+        width: 8rem !important;
+    }
+
+    .style2 img {
+        width: 17rem;
+        height: 18rem;
+    }
+
+    .style3 {
+        width: 19.5rem;
+    }
+
+    .style3-img1-size {
+        width: 17rem;
+    }
+
+    .style2 {
+        width: 19.5rem;
+    }
+
+    .footer1-container {
+        width: 80%;
+    }
+}
+
+@media (width < 987px) {
+    #cart p {
+        display: none;
+    }
+
+    .style1 {
+        width: 18.5rem;
+        height: 25.5rem;
+    }
+
+    .images img {
+        width: 8rem;
+    }
+
+    .style2 {
+        width: 18.5rem;
+        height: 25.5rem;
+    }
+
+    .style2 img {
+        width: 16rem;
+    }
+
+    .style3 {
+        width: 18.5rem;
+        height: 25.5rem;
+    }
+
+    .style3-img1-size {
+        width: 16rem;
+    }
+
+    .style3 a {
+        margin-top: 0;
+    }
+}
+
+@media (width < 945px) {
+    .style1 {
+        width: 17.5rem;
+        height: 22rem;
+    }
+
+    .img-size {
+        width: 7rem !important;
+    }
+
+    .style1 a {
+        padding-top: 0;
+    }
+
+    .style1 p {
+        padding-bottom: 5px;
+    }
+
+    .style2 {
+        width: 17.5rem;
+        height: 22rem;
+    }
+
+    .style2 img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .img-size2 {
+        height: 15rem !important;
+    }
+
+    .style3 {
+        width: 17.5rem;
+        height: 24rem;
+    }
+
+    .style3-img1-size {
+        width: 15rem;
+        height: 8rem;
+    }
+
+    .style3-img-position img {
+        width: 5rem;
+        height: 4rem;
+    }
+}
+
+@media (width < 890px) {
+    .style1 {
+        width: 16rem;
+        height: 20rem;
+        padding: 10px 0;
+    }
+
+    .style1 p {
+        padding-bottom: 0;
+    }
+
+    .style1 a {
+        padding-top: 1.5rem;
+    }
+
+    .images img {
+        width: 7rem;
+        height: 5rem;
+    }
+
+    .style2 {
+        width: 16rem;
+        height: 20rem;
+        padding: 15px;
+    }
+
+    .style2 img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .img-size2 {
+        height: 12rem !important;
+    }
+
+    .style3 {
+        width: 16rem;
+        height: 20rem;
+        padding: 10px;
+    }
+
+    .style3-img1-size {
+        width: 14rem;
+        height: 6rem;
+    }
+
+    .style3-img-position img {
+        width: 4.5rem;
+    }
+
+    .footer2-grid {
+        width: 90vw;
+    }
+
+
+}
+
+@media (width < 820px) {
+    .style1 {
+        width: 15rem;
+    }
+
+    .style1 h2 {
+        font-size: 1rem;
+    }
+
+    .img-size {
+        width: 6rem !important;
+    }
+
+    .style2 {
+        width: 15rem;
+    }
+
+    .style2 img {
+        width: 13rem;
+    }
+
+    .img-size2 {
+        height: 13rem !important;
+    }
+
+    .style2 h2 {
+        font-size: 1rem;
+    }
+
+    .style3 {
+        width: 15rem;
+    }
+
+    .style3-img1-size {
+        width: 13.5rem;
+    }
+
+    .style3 h2 {
+        font-size: 1rem;
+    }
+
+    #logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    #location img {
+        height: 13px;
+    }
+
+    #nav-p1 {
+        font-size: .6rem;
+    }
+
+    #nav-p2 {
+        font-size: .7rem;
+    }
+
+    .search select {
+        font-size: .7rem;
+        padding-right: 0;
+    }
+
+    .search input {
+        font-size: .75rem;
+        padding-left: 5px;
+    }
+
+    #language select {
+        font-size: .7rem;
+    }
+
+    #account p {
+        font-size: .6rem;
+    }
+
+    #account select {
+        font-size: .7rem;
+    }
+
+    #nav-p3 {
+        font-size: .6rem;
+    }
+
+    #nav-p4 {
+        font-size: .7rem;
+    }
+
+    #cart img {
+        width: 25px;
+        height: 30px;
+    }
+
+    #menu {
+        padding: 4px 1.1rem;
+    }
+
+    #menu img {
+        width: 1rem;
+    }
+
+    #menu span {
+        font-size: .7rem;
+    }
+
+    #nav2 p {
+        font-size: .7rem;
+    }
+}
+
+@media (width < 770px) {
+    .style1 {
+        width: 14rem;
+        height: 19rem;
+    }
+
+    .style1 p {
+        font-size: .6rem;
+    }
+
+    .style1 a {
+        font-size: .65rem;
+    }
+
+    .style2 {
+        width: 14rem;
+        height: 19rem;
+    }
+
+    .style2 img {
+        width: 12rem;
+    }
+
+    .style2 a {
+        margin-top: 10px;
+        font-size: .65rem;
+    }
+
+    .style3 {
+        width: 14rem;
+        height: 19rem;
+    }
+
+    .style3 p {
+        font-size: .6rem;
+    }
+
+    .style3 a {
+        font-size: .65rem;
+    }
+
+    .style3-img1-size {
+        width: 12.5rem;
+    }
+
+    .style3-img-position img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .products h2 {
+        font-size: 1rem;
+    }
+
+    .products ul img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .products2 {
+        padding: 10px;
+    }
+
+    .products2 .title h2 {
+        font-size: 1rem;
+    }
+
+    .products2 .title p {
+        font-size: .6rem;
+    }
+
+    .footer1-container {
+        width: 90%;
+    }
+
+    .products2 img {
+        height: 6rem;
+    }
+
+    .products2 button {
+        font-size: .6rem;
+    }
+
+    .products2-deal {
+        font-size: .7rem;
+    }
+
+
+    .products2-price {
+        font-size: .6rem;
+    }
+
+    .products2-price span {
+        font-size: .6rem;
+    }
+
+    .products2-descr {
+        font-size: .6rem;
+    }
+
+    #personalized-recom * {
+        font-size: .6rem;
+    }
+
+    #personalized-recom p {
+        font-size: .6rem;
+    }
+
+    .back-to-top {
+        font-size: .6rem;
+        padding: 8px;
+    }
+
+    .footer1-container {
+        width: 80%;
+        gap: 1rem;
+    }
+
+    .footer1-container h3 {
+        font-size: .7rem;
+    }
+
+    .footer1-container li {
+        font-size: .6rem;
+    }
+
+    .footer1-button1 {
+        font-size: .6rem;
+        padding-right: 2rem;
+        padding-left: 1.7rem;
+    }
+
+    .footer1-button2 {
+        font-size: .6rem;
+        padding-right: 1rem;
+    }
+
+    .footer1-button3 {
+        font-size: .6rem;
+        padding-right: 1rem;
+    }
+
+    #earth-icon {
+        width: 10px;
+    }
+
+    .footer2 h3 {
+        font-size: .7rem;
+    }
+
+    .footer2 p {
+        font-size: .6rem;
+    }
+
+    .footer3 span {
+        font-size: .6rem;
+    }
+
+    .footer3 img {
+        width: 20px;
+    }
+}
+
+@media (width < 725px) {
+    .style1 {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .images img {
+        width: 6rem;
+    }
+
+    .img-size {
+        height: 4.7rem !important;
+        width: 5rem !important;
+    }
+
+    .style1 .padding p {
+        padding-left: 0;
+    }
+
+    .style1 h2 {
+        padding-left: 10px;
+    }
+
+    .style1 p {
+        padding-left: 10px;
+    }
+
+    .style1 a {
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .style2 {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .style2 img {
+        width: 11rem;
+        height: 13rem;
+    }
+
+    .img-size2 {
+        height: 12rem !important;
+    }
+
+    .style3 {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .style3-img1-size {
+        width: 11.5rem;
+    }
+
+    .style3-img-position img {
+        width: 100%;
+        height: 55px;
+    }
+
+    .footer2-grid {
+        gap: 10px;
+    }
+}
+
+@media (width < 680px) {
+    .style1 {
+        width: 12.5rem;
+    }
+
+    .style2 {
+        width: 12.5rem;
+    }
+
+    .style2 img {
+        width: 10.5rem;
+    }
+
+    .style3 {
+        width: 12.5rem;
+    }
+}
+
+@media (width < 655px) {
+    .style1 {
+        width: 12rem;
+        height: 16rem;
+    }
+
+    .images img {
+        height: 4.5rem;
+    }
+
+    .style1 h2 {
+        font-size: 13px;
+    }
+
+    .style2 {
+        width: 12rem;
+        height: 16rem;
+        padding: 11px;
+    }
+
+    .style2 h2 {
+        font-size: 13px;
+    }
+
+    .style2 img {
+        height: 80%;
+    }
+
+    .img-size2 {
+        height: 75% !important;
+    }
+
+    .style3 {
+        width: 12rem;
+        height: 16rem;
+    }
+
+    .style3-img1-size {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .style3 h2 {
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .products h2 {
+        font-size: 13px;
+    }
+
+    .products2 .title h2 {
+        font-size: 13px;
+    }
+
+    .products2 .title p {
+        font-size: 9px;
+    }
+}
+
+@media (width < 630px) {
+    .style1 {
+        width: 11rem;
+    }
+
+    .images img {
+        width: 100%;
+        height: 4rem;
+    }
+
+    .img-size {
+        width: 4.3rem !important;
+        height: 4.2rem !important;
+    }
+
+    .padding div:nth-child(odd) {
+        padding-left: 10px;
+    }
+
+    .style1 p {
+        font-size: 8px;
+    }
+
+    .style2 {
+        width: 11rem;
+    }
+
+    .style2 img {
+        width: 100%;
+    }
+
+    .style3 {
+        width: 11rem;
+    }
+
+    nav {
+        padding: 3px;
+        gap: 5px;
+    }
+
+    #logo {
+        height: 30px;
+    }
+
+    #location img {
+        height: 10px;
+    }
+
+    #nav-p1 {
+        font-size: 7.5px;
+    }
+
+    #nav-p2 {
+        font-size: 8px;
+    }
+
+    .search {
+        height: 25px;
+    }
+
+    .search select {
+        font-size: 9px;
+        padding: 4px;
+        height: 25px;
+    }
+
+    .search input {
+        font-size: 9.5px;
+    }
+
+    #search-icon {
+        height: 25px;
+        padding: 5px;
+    }
+
+    #language {
+        margin: 0;
+    }
+
+    #language img {
+        width: .85rem;
+    }
+
+    #language select {
+        font-size: 8px;
+    }
+
+    #account p {
+        font-size: 7.5px;
+    }
+
+    #account select {
+        font-size: 8px;
+    }
+
+    #account {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-p3 {
+        font-size: 7.5px;
+    }
+
+    #nav-p4 {
+        font-size: 8px;
+    }
+
+    #cart img {
+        width: 1.2rem;
+    }
+
+    #menu img {
+        width: .8rem;
+    }
+
+    #menu span {
+        font-size: 7px;
+    }
+
+    #nav2 p {
+        font-size: 6.8px;
+    }
+
+    .box-row {
+        gap: .6rem;
+    }
+}
+
+@media (width < 580px) {
+    .style1 {
+        width: 10.5rem;
+        height: 14rem;
+    }
+
+    .style1 h2 {
+        font-size: 11px;
+    }
+
+    .style1 p {
+        font-size: 6.5px;
+    }
+
+    .style1 a {
+        font-size: 7px;
+    }
+
+    .style2 {
+        width: 10.5rem;
+        height: 14rem;
+    }
+
+    .style2 h2 {
+        font-size: 11px;
+    }
+
+    .style2 a {
+        font-size: 7px;
+    }
+
+    .style3 {
+        width: 10.5rem;
+        height: 14rem;
+    }
+
+    .style3 h2 {
+        font-size: 11px;
+    }
+
+    .style3 p {
+        font-size: 6.5px;
+        padding-bottom: 5px;
+    }
+
+    .style3 a {
+        font-size: 7px;
+    }
+
+    .style3-img-position img {
+        height: 3rem;
+    }
+
+    .products {
+        padding: 7px;
+        margin: .6rem auto;
+    }
+
+    .products h2 {
+        font-size: 11px;
+    }
+
+    .products ul img {
+        width: 4rem;
+        height: 6rem;
+    }
+
+    .products2 {
+        margin: .6rem auto;
+    }
+
+    .products2 ul img {
+        height: 5rem;
+    }
+
+    .products2 .title {
+        gap: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    .products2 .title h2 {
+        font-size: 11px;
+    }
+
+    .products2 .title p {
+        font-size: 7px;
+    }
+
+    .products2 button {
+        font-size: 7px;
+    }
+
+    .products2-deal {
+        font-size: 8px;
+    }
+
+    .products2-price span {
+        font-size: 7px;
+    }
+
+    .products2-descr {
+        font-size: 7px;
+    }
+}
+
+@media (width < 555px) {
+    .style1 {
+        width: 10rem;
+    }
+
+    .style2 {
+        width: 10rem;
+    }
+
+    .style3 {
+        width: 10rem;
+    }
+
+    #personalized-recom p {
+        font-size: 8px;
+    }
+
+    #personalized-recom button {
+        font-size: 8px;
+    }
+
+    #personalized-recom span {
+        font-size: 8px;
+    }
+
+    .back-to-top {
+        font-size: 8px;
+    }
+
+    .footer1 h3 {
+        font-size: 8px;
+    }
+
+    .footer1 li {
+        font-size: 7px;
+    }
+
+    #footer-amazon-logo {
+        width: 4rem;
+    }
+
+    .footer1-button1 {
+        font-size: 7px;
+    }
+
+    .footer1-button2 {
+        font-size: 7px;
+    }
+
+    .footer1-button3 {
+        font-size: 7px;
+    }
+
+    .footer2 h3 {
+        font-size: 8px;
+    }
+
+    .footer2 p {
+        font-size: 7px;
+    }
+
+    .footer3 span {
+        font-size: 7px;
+    }
+}
+
+@media (width < 530px) {
+    .style1 {
+        width: 100%;
+    }
+
+    .images img {
+        width: 100%;
+        height: 3.7rem;
+        padding-right: 5px;
+    }
+
+    .img-size {
+        width: 90% !important;
+        height: 3.7rem !important;
+        padding: 0 !important;
+    }
+
+    .style2 {
+        width: 100%;
+    }
+
+    .style3 {
+        width: 100%;
+    }
+
+    .products2 ul img {
+        height: 3.7rem;
+    }
+}
+
+@media (width < 490px) {
+    .style1 {
+        height: 13rem;
+    }
+
+    .style1 h2 {
+        font-size: 9.5px;
+    }
+
+    .style2 {
+        height: 13rem;
+    }
+
+    .style2 h2 {
+        font-size: 9.5px;
+    }
+
+    .style3 {
+        height: 13rem;
+    }
+
+    .style3 h2 {
+        font-size: 9.5px;
+    }
+
+    .style3-img-position img {
+        height: 90%;
+    }
+
+    .style3 a {
+        margin-top: 20px;
+    }
+
+    #nav-p1 {
+        font-size: 6px;
+    }
+
+    #nav-p2 {
+        font-size: 7px;
+    }
+
+    .search select {
+        font-size: 7px;
+        padding-right: 0;
+    }
+
+    .search input {
+        font-size: 7px;
+    }
+
+    #language img {
+        width: .8rem;
+    }
+
+    #account p {
+        font-size: 6px;
+    }
+
+    #account select {
+        font-size: 7px;
+    }
+
+    #nav-p3 {
+        font-size: 6px;
+    }
+
+    #nav-p4 {
+        font-size: 7px;
+    }
+
+    #footer-amazon-logo {
+        width: 3rem;
+    }
+
+    #earth-icon {
+        left: 1rem;
+    }
+
+    .footer1-button1 {
+        padding: 7px 0;
+        padding-left: 1.2rem;
+        padding-right: 1rem;
+    }
+
+    #arrows-up-down-icon {
+        right: .7rem;
+        width: 5px;
+    }
+
+    .footer1-button2 {
+        padding: 7px;
+    }
+
+    .footer1-button3 {
+        padding: 7px;
+        padding-left: 1.4rem;
+    }
+
+    #footer-flag-icon {
+        width: 13px;
+        left: .8rem;
+    }
+
+    #personalized-recom {
+        height: 8rem;
+    }
+
+    #personalized-recom div {
+        padding-top: 15px;
+        padding-bottom: 9px;
+        top: 2rem;
+    }
+}
+
+@media (width < 455px) {
+
+    .box-row {
+        gap: 10px;
+    }
+
+    .products2 .title h2 {
+        font-size: 8px;
+    }
+
+    #logo {
+        height: 25px;
+        width: 45px;
+    }
+
+    #location img {
+        width: 6.5px;
+        height: 8px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    #nav-p1 {
+        font-size: 5px;
+    }
+
+    #nav-p2 {
+        font-size: 6px;
+    }
+
+    .search {
+        height: 17px;
+    }
+
+    .search input {
+        font-size: 6px;
+    }
+
+    .search select {
+        height: 17px;
+        font-size: 6px;
+    }
+
+    #search-icon {
+        height: 17px;
+    }
+
+    #cart img {
+        height: 15px;
+    }
+
+    #language img {
+        width: 10px;
+    }
+
+    #language select {
+        font-size: 6px;
+    }
+
+    #account p {
+        font-size: 5px;
+    }
+
+    #account select {
+        font-size: 6px;
+    }
+
+    #nav-p3 {
+        font-size: 5px;
+    }
+
+    #nav-p4 {
+        font-size: 6px;
+    }
+
+    #menu {
+        padding: 3px 5px;
+    }
+
+    #menu img {
+        width: 9px;
+    }
+
+    #menu span {
+        font-size: 6px;
+    }
+
+    #nav2 p {
+        font-size: 6px;
+    }
+
+    .images img {
+        height: 40px;
+    }
+
+    .img-size {
+        height: 40px !important;
+    }
+
+    .style1 {
+        padding-top: 5px;
+        height: 10rem;
+    }
+
+    .padding div {
+        padding-left: 5px !important;
+    }
+
+    .style1 p {
+        font-size: 5px;
+        padding-left: 5px;
+    }
+
+    .style1 a {
+        font-size: 6px;
+        padding-left: 5px;
+    }
+
+    .style1 h2 {
+        font-size: 8px;
+        padding-left: 5px;
+    }
+
+    .style2 {
+        height: 10rem;
+        padding: 5px 7px;
+    }
+
+    .style2 a {
+        font-size: 6px;
+        margin-top: 4px;
+    }
+
+    .style2 h2 {
+        font-size: 8px;
+    }
+
+    .style3 {
+        height: 10rem;
+        padding: 5px;
+    }
+
+    .style3 h2 {
+        font-size: 8px;
+    }
+
+    .style3-img1-size {
+        height: 40%;
+    }
+
+    .style3-img-position img {
+        height: 70%;
+    }
+
+    .style3 p {
+        font-size: 5px;
+    }
+
+    .style3 a {
+        margin-top: 5px;
+        font-size: 6px;
+    }
+
+    .products {
+        padding: 5px;
+    }
+
+    .products h2 {
+        font-size: 8px;
+    }
+
+    .products ul img {
+        height: 80px;
+    }
+
+    .products2 {
+        padding: 5px;
+    }
+
+    .products2 .title p {
+        font-size: 5.5px;
+    }
+
+    .products2 ul img {
+        height: 50px;
+    }
+
+    .products2 button {
+        font-size: 5px;
+        padding: 3px;
+    }
+
+    .products2-price {
+        font-size: 6px;
+    }
+
+    .products2 span {
+        font-size: 6px;
+    }
+
+    .products2-deal {
+        font-size: 5.5px;
+    }
+
+    .products2-descr {
+        font-size: 6px;
+    }
+
+    #personalized-recom p {
+        font-size: 6px;
+    }
+
+    #personalized-recom button {
+        font-size: 6px;
+        padding: 3px 60px;
+    }
+
+    #personalized-recom span {
+        font-size: 6px;
+    }
+
+    .back-to-top {
+        font-size: 6px;
+        padding: 5px 0;
+    }
+
+    .footer1 {
+        padding: 20px;
+    }
+
+    .footer1 h3 {
+        font-size: 6px;
+        padding: 0;
+    }
+
+    .footer1 li {
+        font-size: 5.5px;
+        padding: 3px 0;
+    }
+
+    #footer-amazon-logo {
+        width: 2.5rem;
+    }
+
+    #earth-icon {
+        width: 7px;
+        left: 12px;
+    }
+
+    .footer1-button1 {
+        font-size: 6px;
+        padding: 4px 15px;
+    }
+
+    #arrows-up-down-icon {
+        width: 4.2px;
+        right: 9px;
+    }
+
+    .footer1-button2 {
+        font-size: 6px;
+        padding: 4px;
+    }
+
+    .footer1-button3 {
+        font-size: 6px;
+        padding: 4px;
+        padding-left: 15px;
+    }
+
+    #footer-flag-icon {
+        width: 9px;
+        left: 5px;
+    }
+
+    .footer2 h3 {
+        font-size: 6px;
+    }
+
+    .footer2 p {
+        font-size: 5px;
+        padding-bottom: 15px;
+    }
+
+    #personalized-recom {
+        height: 90px;
+    }
+
+    #personalized-recom div {
+        top: 20px;
+        padding-top: 15px;
+    }
+
+    .footer3 span {
+        font-size: 5px;
+    }
+}
+
+@media (width < 400px) {}

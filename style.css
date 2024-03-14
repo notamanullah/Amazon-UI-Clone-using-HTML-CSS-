@@ -18,41 +18,38 @@ a {
     text-decoration: none;
 }
 
+nav * {
+    background-color: #131921;
+}
+
 nav {
     background-color: #131921;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.4rem .8rem;
-    gap: 1rem;
+    padding: 3px 10px;
+    gap: 10px;
 }
 
 #logo {
     width: 110px;
-    background-color: #131921;
     height: 50px;
     object-fit: cover;
 }
 
 #location {
-    background-color: #131921;
     gap: .1rem;
     display: flex;
 }
 
 #location img {
-    background: #131921;
     height: 1.2rem;
     object-fit: cover;
-    align-self: flex-end;
+    align-self: end;
 }
 
-#location p {
-    background-color: #131921;
-}
-
-#p1 {
+#nav-p1 {
     color: #c4c4c4;
     font-size: 0.8rem;
 }
@@ -65,15 +62,15 @@ nav {
     background: #fff;
     color: gray;
     border-radius: 4px;
-    height: 2.6rem;
+    height: 2.2rem;
 }
 
 .search select {
-    padding: .6rem .6rem;
+    padding: .6rem;
     background: #e5e5e5;
     border-radius: 4px 0 0 4px;
     border: none;
-    height: 2.6rem;
+    height: 2.2rem;
 }
 
 .search input {
@@ -86,56 +83,47 @@ nav {
 }
 
 #search-icon {
-    max-width: 5rem;
     padding: .6rem;
     background: #ffc60b;
     border-radius: 0 4px 4px 0;
-    max-height: 2.6rem;
+    height: 2.2rem;
 }
 
 #language {
     display: flex;
-    margin-top: .9rem;
+    margin-top: .8rem;
 }
 
 #language img {
-    max-width: 1.3rem;
+    width: 1.3rem;
     object-fit: contain;
-    background: #131921;
 }
 
 #language select {
-    background: #131921;
     color: #fff;
     border: none;
     font-weight: 700;
 }
 
-#account {
-    background: #131921;
-}
-
 #account p {
-    background: #131921;
     font-size: .82rem;
 }
 
 #account select {
-    background: #131921;
     border: none;
     color: #fff;
     font-weight: 700;
     font-size: .89rem;
 }
 
-#p3 {
-    background: #131921;
+#nav-p3 {
     font-size: .82rem;
+    color: #c4c4c4;
 }
 
-#p4 {
-    background: #131921;
+#nav-p4 {
     font-size: .89rem;
+    font-weight: 700;
 }
 
 #cart {
@@ -143,34 +131,34 @@ nav {
 }
 
 #cart img {
-    max-width: 2rem;
-    background: #131921;
+    width: 2rem;
+    object-fit: contain;
 }
 
 #cart p {
     font-size: .89rem;
     font-weight: 700;
-    background: #131921;
     padding-top: 1rem;
 }
 
 #menu {
-    background: #232f3e;
     display: flex;
     align-items: center;
-    padding: .5rem 1.1rem;
+    padding: .4rem 1.1rem;
     gap: 3px;
 }
 
 #menu img {
-    background: #232f3e;
-    max-width: 1.5rem;
+    width: 1.5rem;
 }
 
 #menu span {
-    background: #232f3e;
-    color: #fff;
     font-size: .9rem;
+}
+
+#nav2 * {
+    background-color: #232f3e;
+    color: white;
 }
 
 #nav2 {
@@ -180,8 +168,6 @@ nav {
 }
 
 #nav2 p {
-    background: #232f3e;
-    color: #fff;
     padding-right: .8rem;
     font-size: .88rem;
     font-weight: 500;
@@ -190,7 +176,7 @@ nav {
 #img-slider ul {
     display: flex;
     overflow-y: hidden;
-    width: 94vw;
+    width: 100vw;
     margin: auto;
 }
 
@@ -222,8 +208,8 @@ nav {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 91.5vw;
-    margin: auto;
+    width: 96vw;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -258,15 +244,15 @@ nav {
     color: #007185;
     font-size: .8rem;
     display: block;
-    margin-top: .7rem;
+    padding-top: .7rem;
     padding-left: 1.2rem;
 }
 
 .images img {
-    margin-top: .7rem;
+    margin-top: 5px;
     width: 11rem;
-    height: 7.3rem;
     object-fit: cover;
+    height: 7.3rem;
 }
 
 .img-size {
@@ -307,7 +293,7 @@ nav {
     width: 19.5rem;
     height: 20rem;
     object-fit: cover;
-    margin-top: .5rem;
+    margin-top: 3px;
 }
 
 .img-size2 {
@@ -358,6 +344,7 @@ nav {
 .style3-img-position {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
 }
 
 .style3-img-position img {
@@ -369,7 +356,7 @@ nav {
 
 .products {
     background: #fff;
-    width: 91.5vw;
+    width: 96vw;
     margin: 1.2rem auto;
     padding: 1.2rem;
     overflow-x: auto;
@@ -388,11 +375,6 @@ nav {
     margin-bottom: .2rem;
 }
 
-.products ul img {
-    object-fit: cover;
-    max-width: 15rem;
-}
-
 .products ul {
     display: flex;
     justify-content: space-between;
@@ -403,7 +385,8 @@ nav {
     background-color: #fff;
     padding: 1.5rem;
     margin: 1.2rem auto;
-    width: 91.5vw;
+    width: 96vw;
+    overflow-x: auto;
 }
 
 .products2 * {
@@ -488,8 +471,7 @@ nav {
 }
 
 .products2 button {
-    background: red;
-    max-width: 6rem;
+    background-color: red;
     padding: .25rem;
     color: #fff;
     border: none;
@@ -521,7 +503,7 @@ nav {
 
 #personalized-recom {
     background-color: #fff;
-    height: 18vh;
+    height: 12rem;
     text-align: center;
 }
 
@@ -554,9 +536,8 @@ nav {
     background-color: #3b475b;
     color: white;
     font-size: .85rem;
-    height: 4vh;
     text-align: center;
-    padding-top: .9rem;
+    padding: .8rem 0;
 }
 
 .footer1 {
@@ -587,14 +568,12 @@ nav {
     list-style: none;
     font-size: .85rem;
     color: #bbb;
-    padding: .3rem 0;
+    padding: 5px 0;
 }
 
 #footer-amazon-logo {
     width: 80px;
-    height: 39px;
-    object-fit: contain;
-    margin-right: 4rem;
+    margin-right: 3rem;
 }
 
 .footer1-content2 * {
@@ -666,11 +645,6 @@ nav {
     padding-top: 2rem;
 }
 
-.footer2-grid {
-    width: 60vw;
-    margin: auto;
-}
-
 .footer2 * {
     background-color: #151a23;
 }
@@ -689,13 +663,16 @@ nav {
 .footer2-grid {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(7, 1fr)
+    grid-template-columns: repeat(7, 1fr);
+    width: 60vw;
+    margin: 0 auto;
 }
 
 .footer3 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .footer3 span {
@@ -711,5 +688,5 @@ nav {
 
 .footer3 img {
     width: 30px;
-    margin-left: 5px;
+    padding-left: 5px;
 }
